@@ -1,0 +1,66 @@
+body {  background-image: url(../imagenes/Empanadas4.jpg);
+        background-color: #D2B4DE ;
+        background-blend-mode: screen;
+
+      }
+.titulo1 {font-family: cooper black;
+
+        font-size: 400%;
+        text-align: center;
+      }
+.titulo2 {font-family: century:cursive;
+        font-size: 200%;
+        tab-size: 4;
+        text-align:  center;
+      }
+.titulo3 {text-decoration: underline;
+      font-weight: bold;
+      text-align: center;
+      }
+.titulo4 {text-decoration: underline;
+        font-weight: bold;
+        text-align: center;
+
+        }
+.titulo5 { text-decoration: underline;
+          font-weight: bold;
+        text-align: center;
+      }
+
+.texto1 {text-align:  center;
+        font-weight: bold;
+        font-size: 150%;
+      }
+.texto2 { font-weight: bold;
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+        }
+
+.texto3 {color: #797D7F;
+        display: flex;
+        justify-content: center;
+        }
+.texto4 {color: #797D7F;
+          display: flex;
+        justify-content: center;
+        }
+
+.imagen1 {display: block;
+          margin: 0px auto;
+          width: 400px;
+          height: 300px;
+        }
+.audio1 {text-align: center;
+      }
+.relleno { display: flex;
+          justify-content:center;
+        }
+.imagen2 { display: block;
+          width: 500px;
+        height: 300px;
+      }
+.imagen4 { display: flex;
+          justify-content: center;
+        }
+        
