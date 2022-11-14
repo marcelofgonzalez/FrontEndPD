@@ -15,11 +15,14 @@
     <meta name="description" content="Empanadas Tucumanas" />
     <meta name="keywords" content="Empanadas,Tucumanas,Comida" />
     <meta name=" author" content="Marcelo Gonzalez" />
+    <script>
+      alert("Bienvenidos a Empanadas Tucumanas");
+    </script>
   </head>
   <body>
     <header>
       <img class="logo1" src="./imagenes/logo.jpg" alt="logo" />
-      <h1 class="titulo1">EMPANADAS TUCUMANAS</h1>
+      <h1 class="titulo1" id="1">EMPANADAS TUCUMANAS</h1>
       <div class="redes">
         <a href="http://www.instagram.com" target="_blanck">
           <img class="insta" src="./imagenes/insta.jpg" alt="Instagram" />
@@ -35,13 +38,14 @@
         </a>
       </div>
     </header>
+    <button onclick="oscuro()">Modo Oscuro</button>
     <section class="padre1">
       <div class="p1">
-        <h2 class="titulo3">Ingredientes</h2>
+        <h2 class="titulo3" id="2">Ingredientes</h2>
         <div class="elementos">
-          <div class="texto3">
+          <div class="texto3" id="3">
             <ul>
-              <h3 class="titulo4">Masa</h3>
+              <h3 class="titulo4" id="4">Masa</h3>
               <li>3/4 kg de harina</li>
               <li>300 grs de grasa de pella</li>
               <li>1 cda de sal gruesa</li>
@@ -50,9 +54,9 @@
           </div>
           <br />
 
-          <div class="texto4">
+          <div class="texto4" id="5">
             <ul>
-              <h3 class="titulo5">Relleno</h3>
+              <h3 class="titulo5" id="6">Relleno</h3>
               <li>1 cda de sal gruesa y verduras para el caldo</li>
               <li>1/2 kg de matambre</li>
               <li>1 cebolla grande</li>
@@ -69,8 +73,8 @@
           </div>
         </div>
 
-        <h2 style="color: #0000ff" class="titulo3">Preparación</h2>
-        <div class="texto2">
+        <h2 style="color: #0000ff" class="titulo3" id="7">Preparación</h2>
+        <div class="texto2" id="8">
           <ol>
             <li>
               La masa: unir todos los ingredientes para formar la masa. Darle
@@ -141,8 +145,10 @@
         </a>
       </div>
 
-      <div class="p2">
-        <h2 style="color: #0000ff" class="titulo2">UN POCO DE HISTORIA</h2>
+      <div class="p2" id="9">
+        <h2 style="color: #0000ff" class="titulo2" id="10">
+          UN POCO DE HISTORIA
+        </h2>
         <p class="texto1">
           Las empanadas llegaron al continente americano a través de los
           españoles,<br />
@@ -185,7 +191,7 @@
 
     <br />
     <nav>
-      <div class="otra">
+      <div class="otra" id="11">
         <h2>OTRAS RECETAS PARA VER</h2>
       </div>
       <div class="enlaces">
@@ -217,7 +223,7 @@
       </div>
     </nav>
     <br />
-    <h2 class="titulo3">Empanadas del Mundo</h2>
+    <h2 class="titulo3" id="12">Empanadas del Mundo</h2>
     <br />
     <div class="container">
       <div class="row">
@@ -324,6 +330,7 @@
       </div>
     </div>
     <footer>
+      <button onclick="mfg()">Web Master</button>
       <div class="copia">
         <p class="derechos">Todos los derechos reservados</p>
         <img class="derechos1" src="./imagenes/derechos.jpg" alt="c" />
@@ -355,6 +362,7 @@
         </iframe>
       </div>
     </footer>
+    <script src="./js/main.js"></script>
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
